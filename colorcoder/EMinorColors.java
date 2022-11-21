@@ -1,4 +1,4 @@
-package colorcode;
+package colorcoder;
 
 public enum EMinorColors {
 	

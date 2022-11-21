@@ -1,7 +1,7 @@
-package colorcode;
+package colorcoder;
 
 public enum EMajorColors {
-	
+
 	WHITE(0), RED(1), BLACK(2), YELLOW(3), VIOLET(4);
 
 	private int index;
