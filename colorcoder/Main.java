@@ -3,11 +3,11 @@ package colorcoder;
 public class Main {
 
 	public static void main(String[] args) {
-		TwentyFivePairColorCode.printColorsAndPairNumber();
-		TwentyFivePairColorCodeTest.testNumberToPair(4, EMajorColors.WHITE, EMinorColors.BROWN);
-		TwentyFivePairColorCodeTest.testNumberToPair(5, EMajorColors.WHITE, EMinorColors.SLATE);
+		ColorCoder.printColorsAndPairNumber();
+		ColorCoderTest.testNumberToPair(4, EMajorColors.WHITE, EMinorColors.BROWN);
+		ColorCoderTest.testNumberToPair(5, EMajorColors.WHITE, EMinorColors.SLATE);
 
-		TwentyFivePairColorCodeTest.testPairToNumber(EMajorColors.BLACK, EMinorColors.ORANGE, 12);
-		TwentyFivePairColorCodeTest.testPairToNumber(EMajorColors.VIOLET, EMinorColors.SLATE, 25);
+		ColorCoderTest.testPairToNumber(EMajorColors.BLACK, EMinorColors.ORANGE, 12);
+		ColorCoderTest.testPairToNumber(EMajorColors.VIOLET, EMinorColors.SLATE, 25);
 	}
 }

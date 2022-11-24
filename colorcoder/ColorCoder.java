@@ -1,6 +1,6 @@
 package colorcoder;
 
-public class TwentyFivePairColorCode {
+public class ColorCoder {
 
 	public final static String MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet" };
 	public final static String MinorColorNames[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
