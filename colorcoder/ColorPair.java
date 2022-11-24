@@ -19,9 +19,9 @@ public class ColorPair {
 	}
 
 	String ToString() {
-		String colorPairStr = TwentyFivePairColorCode.MajorColorNames[majorColor.getIndex()];
+		String colorPairStr = ColorCoder.MajorColorNames[majorColor.getIndex()];
 		colorPairStr += " ";
-		colorPairStr += TwentyFivePairColorCode.MinorColorNames[minorColor.getIndex()];
+		colorPairStr += ColorCoder.MinorColorNames[minorColor.getIndex()];
 		return colorPairStr;
 	}
 }
